@@ -2,10 +2,8 @@ import json
 from pathlib import Path
 
 # read file list
-bribefiles = [file for file in Path(
-    "./oldfiles/").glob("bribe-data-*.json")]
+bribefiles = [file for file in Path("./oldfiles/").glob("bribe-data-*.json")]
 Path("./newfiles").mkdir(parents=True, exist_ok=True)
-
 
 for fileinfo in bribefiles:
     # read files
