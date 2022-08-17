@@ -1,6 +1,6 @@
 # Data
-newfiles/
-oldfiles/
+# newfiles/
+# oldfiles/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
