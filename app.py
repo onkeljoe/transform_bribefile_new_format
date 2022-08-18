@@ -1,9 +1,13 @@
 import json
 from pathlib import Path
 
+# False: create files with old and new format included. True: create files with general "reward" only
+NEW_FORMAT_ONLY = True
+
 # read file list
 bribefiles = [file for file in Path("./oldfiles/").glob("bribe-data-*.json")]
 Path("./newfiles").mkdir(parents=True, exist_ok=True)
+Path("./newfiles_only_reward").mkdir(parents=True, exist_ok=True)
 
 for fileinfo in bribefiles:
     # read files
@@ -31,6 +35,13 @@ for fileinfo in bribefiles:
         else:
             print("reward already exists")
 
+        # remove old keys, if no longer needed
+        if NEW_FORMAT_ONLY:
+            bribe.pop("fixedreward", None)
+            bribe.pop("percentreward", None)
+            bribe.pop("fixedreward", None)
+
     # write copies of files
-    with open("./newfiles/" + Path(fileinfo).name, 'w') as outfile:
+    filepath = "./newfiles_only_reward/" if NEW_FORMAT_ONLY else "./newfiles/"
+    with open(filepath + Path(fileinfo).name, 'w') as outfile:
         json.dump(data, outfile, indent=2, ensure_ascii=False)
