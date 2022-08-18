@@ -39,7 +39,7 @@ for fileinfo in bribefiles:
         if NEW_FORMAT_ONLY:
             bribe.pop("fixedreward", None)
             bribe.pop("percentreward", None)
-            bribe.pop("fixedreward", None)
+            bribe.pop("pervotereward", None)
 
     # write copies of files
     filepath = "./newfiles_only_reward/" if NEW_FORMAT_ONLY else "./newfiles/"
