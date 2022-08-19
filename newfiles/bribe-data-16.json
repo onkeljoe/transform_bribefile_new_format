@@ -1,5 +1,5 @@
 {
-  "version": "16.13.3",
+  "version": "16.13.4",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -8,14 +8,6 @@
       "token": "BEETS",
       "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
       "coingeckoid": "beethoven-x"
-    },
-    {
-      "token": "BPT-4ECHUSD",
-      "bptpoolid": "0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4"
-    },
-    {
-      "token": "fBEETS",
-      "bptpoolid": "0xcde5a11a4acb4ee4c805352cec57e236bdbc3837000200000000000000000019"
     }
   ],
   "bribedata": [
@@ -25,7 +17,6 @@
       "poolurl": "https://beets.fi/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
       "rewarddescription": "$.911 for 1000 votes. up to $2407. $666 in USDC to top voters. $1337 in USDC-ECH bpt. $420 in FTM for others.",
       "assumption": "in case of less than .15% total votes we will still pay all loyal voters",
-      "fixedreward": [],
       "pervotereward": [
         {
           "token": "USDC",
@@ -33,6 +24,7 @@
           "isfixed": true
         }
       ],
+      "percentreward": [],
       "percentagethreshold": 0,
       "rewardcap": 2407,
       "reward": [
@@ -59,6 +51,7 @@
           "isfixed": true
         }
       ],
+      "percentreward": [],
       "percentagethreshold": 0,
       "reward": [
         {
@@ -72,13 +65,38 @@
       ]
     },
     {
+      "voteindex": 52,
+      "poolname": "The Empire's Anthem (GEM-USDC-FTM)",
+      "poolurl": "https://beets.fi/pool/0xa8eeb38ebfa215d4d3c7499532d5066b8bc6ed450001000000000000000004f6",
+      "rewarddescription": "This round we are keeping the 1500 USDC and throwing an additional 11 GEMs to our bribe for a total value of $2478.",
+      "assumption": "",
+      "fixedreward": [
+        {
+          "token": "USDC",
+          "amount": 2478,
+          "isfixed": true
+        }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 2478,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
+    },
+    {
       "voteindex": 13,
       "poolname": "Lock, Staked, and two FTMs",
       "poolurl": "https://beets.fi/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
       "rewarddescription": "You can get $440 in SD tokens per 1% of votes (Capped at 22% votes max)",
       "assumption": "",
       "fixedreward": [],
-      "pervotereward": [],
       "percentreward": [
         {
           "token": "SD Token",
@@ -100,33 +118,6 @@
       ]
     },
     {
-      "voteindex": 52,
-      "poolname": "The Empire's Anthem (GEM-USDC-FTM)",
-      "poolurl": "https://beets.fi/pool/0xa8eeb38ebfa215d4d3c7499532d5066b8bc6ed450001000000000000000004f6",
-      "rewarddescription": "This round we are keeping the 1500 USDC and throwing an additional 11 GEMs to our bribe for a total value of $2478.",
-      "assumption": "",
-      "fixedreward": [
-        {
-          "token": "USDC",
-          "amount": 2478,
-          "isfixed": true
-        }
-      ],
-      "pervotereward": [],
-      "percentreward": [],
-      "percentagethreshold": 0,
-      "reward": [
-        {
-          "type": "fixed",
-          "token": "USDC",
-          "amount": 2478,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
-        }
-      ]
-    },
-    {
       "voteindex": 26,
       "poolname": "Pirate Party (LQDR-FTM)",
       "poolurl": "https://beets.fi/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
@@ -139,7 +130,6 @@
           "isfixed": true
         }
       ],
-      "pervotereward": [],
       "percentreward": [],
       "percentagethreshold": 0,
       "reward": [
@@ -166,7 +156,6 @@
           "isfixed": true
         }
       ],
-      "pervotereward": [],
       "percentreward": [],
       "percentagethreshold": 0,
       "reward": [
@@ -193,7 +182,6 @@
           "isfixed": false
         }
       ],
-      "pervotereward": [],
       "percentreward": [],
       "percentagethreshold": 0,
       "reward": [
@@ -220,7 +208,6 @@
           "isfixed": false
         }
       ],
-      "pervotereward": [],
       "percentreward": [],
       "percentagethreshold": 0,
       "reward": [
@@ -241,7 +228,6 @@
       "rewarddescription": "Boosted Bribes at least $332 in $CRE8R per 1%.",
       "assumption": "additional $AMP rewards possible, please read announcement https://twitter.com/CRE8RDAO/status/1555876840832929793",
       "fixedreward": [],
-      "pervotereward": [],
       "percentreward": [
         {
           "token": "CRE8R",
@@ -292,7 +278,6 @@
           "isfixed": false
         }
       ],
-      "pervotereward": [],
       "percentreward": [],
       "percentagethreshold": 0,
       "reward": [
@@ -320,7 +305,6 @@
         }
       ],
       "fixedreward": [],
-      "pervotereward": [],
       "rewardcap": 10600,
       "percentagethreshold": 0,
       "reward": [
@@ -348,7 +332,6 @@
           "isfixed": false
         }
       ],
-      "pervotereward": [],
       "percentagethreshold": 0,
       "reward": [
         {
@@ -375,7 +358,6 @@
         }
       ],
       "percentreward": [],
-      "pervotereward": [],
       "percentagethreshold": 0,
       "reward": [
         {
