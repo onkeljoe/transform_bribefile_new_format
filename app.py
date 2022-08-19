@@ -17,6 +17,8 @@ for fileinfo in bribefiles:
 
     # create new format
     for bribe in data["bribedata"]:
+        newurl = bribe.get("poolurl") or ""
+        bribe["poolurl"] = newurl.replace("#/", "")
         if "reward" not in bribe:
             rewardlist = []
             for fix in bribe.get("fixedreward") or ():
