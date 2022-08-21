@@ -1,0 +1,185 @@
+{
+  "version": "17.9.2",
+  "snapshot": "0xf161196029cb7848d69154c87884de87c5c7a6d41686c9e7346bdc39d3620325",
+  "description": "Farming Incentive Gauge Vote (round 17)",
+  "round": 17,
+  "tokendata": [
+    {
+      "token": "BEETS",
+      "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+      "coingeckoid": "beethoven-x"
+    }
+  ],
+  "bribedata": [
+    {
+      "voteindex": 26,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "offer for your $fBEETS votes: Pirate Party - $11,000 in $LQDR",
+      "assumption": "Raffle for 3 FNFTs (worth $400 each) not included in calculation",
+      "fixedreward": [
+        {
+          "token": "LQDR",
+          "amount": 11000,
+          "isfixed": true
+        }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 38,
+      "poolname": "Water Music (SPIRIT-LINSPIRIT)",
+      "poolurl": "https://beets.fi/pool/0x30a92a4eeca857445f41e4bb836e64d66920f1c0000200000000000000000071",
+      "rewarddescription": "offer for your $fBEETS votes: Water Music - $4,500 in LQDR",
+      "assumption": "",
+      "fixedreward": [
+        {
+          "token": "LQDR",
+          "amount": 4500,
+          "isfixed": true
+        }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 13,
+      "poolname": "Lock, Staked, and two FTMs",
+      "poolurl": "https://beets.fi/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
+      "rewarddescription": "Vote now and get $450 in $USDC per 1% of votes. (Capped at 25% votes max)",
+      "assumption": "Minimum guarantee: $3000 USDC.",
+      "fixedreward": [
+        {
+          "token": "SD Token",
+          "amount": 3000,
+          "isfixed": true
+        }
+      ],
+      "percentreward": [
+        {
+          "token": "SD Token",
+          "amount": 450,
+          "isfixed": true
+        }
+      ],
+      "percentagethreshold": 6.6667,
+      "rewardcap": 8250
+    },
+    {
+      "voteindex": 52,
+      "poolname": "Echelon Trance (bECH-USDC)",
+      "poolurl": "https://beets.fi/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
+      "rewarddescription": "$0.0009 for each vote. up to $2022. $420 in FTM, $420 in USDC, $1111 in bECH",
+      "assumption": "Final Bribe upgrade for Echelon Trance:  $555 per % paid out in BEETS, upto 5.55%. ",
+      "pervotereward": [],
+      "percentreward": [
+        {
+          "token": "BEETS",
+          "amount": "555",
+          "isfixed": true
+        }
+      ],
+      "percentagethreshold": 0,
+      "rewardcap": 3080
+    },
+    {
+      "voteindex": 0,
+      "poolname": "Fantom of the Opera (FTM-USDC)",
+      "poolurl": "https://beets.fi/pool/0xcdf68a4d525ba2e90fe959c74330430a5a6b8226000200000000000000000008",
+      "rewarddescription": "BEETS Reward 60,563.51 BEETS",
+      "assumption": "",
+      "fixedreward": [
+        {
+          "token": "BEETS",
+          "amount": 60563.51,
+          "isfixed": false
+        }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 3,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "BEETS Reward 60,563.51 BEETS",
+      "assumption": "",
+      "fixedreward": [
+        {
+          "token": "BEETS",
+          "amount": 60563.51,
+          "isfixed": false
+        }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 42,
+      "poolname": "CRE8R in F-Major (CRE8R-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
+      "rewarddescription": "Boosted Bribes at least $332 in $CRE8R per 1%.",
+      "assumption": "for additional $AMP rewards use vote button on https://amplifi.gg/wxl",
+      "fixedreward": [],
+      "percentreward": [
+        {
+          "token": "CRE8R",
+          "amount": "332",
+          "isfixed": true
+        }
+      ],
+      "percentagethreshold": 0,
+      "additionalrewards": [
+        {
+          "tier": "bogusest_bribe",
+          "factor": 1.0
+        },
+        {
+          "tier": "basic_boosted",
+          "factor": 2.2
+        },
+        {
+          "tier": "boosted_bribe",
+          "factor": 2.5
+        },
+        {
+          "tier": "boosted_bonus",
+          "factor": 3.2
+        }
+      ]
+    },
+    {
+      "voteindex": 27,
+      "poolname": "Lonely Mountain (RING-USDC)",
+      "poolurl": "https://beets.fi/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "Announcing 2000$ in BPT-RING lp in Bribes for next 2 weeks of Beets Emissions.",
+      "assumption": "",
+      "fixedreward": [
+        {
+          "token": "Lonely Mountain LP",
+          "amount": 2000,
+          "isfixed": true
+        }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 37,
+      "poolname": "$FANG Never Too Old to Yearn (FANG-USDC-FTM)",
+      "poolurl": "https://beets.fi/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "Our Bribe for your $Fbeets vote is: 💰 Your Share of a Flat 1,000 $USDC",
+      "assumption": "",
+      "fixedreward": [
+        {
+          "token": "USDC",
+          "amount": 1000,
+          "isfixed": true
+        }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    }
+  ]
+}

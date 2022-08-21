@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 # False: create files with old and new format included. True: create files with general "reward" only
-NEW_FORMAT_ONLY = True
+NEW_FORMAT_ONLY = False
 
 # read file list
 bribefiles = [file for file in Path("./oldfiles/").glob("bribe-data-*.json")]
