@@ -36,9 +36,7 @@
           "type": "fixed",
           "token": "Lonely Mountain LP",
           "amount": 2500,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -62,9 +60,7 @@
           "type": "percent",
           "token": "BEETS",
           "amount": 5000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -89,9 +85,7 @@
           "type": "percent",
           "token": "SD Token",
           "amount": 450,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 9000
+          "isfixed": true
         }
       ]
     },
@@ -137,9 +131,7 @@
           "type": "percent",
           "token": "CRE8R",
           "amount": "371",
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -163,9 +155,7 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 8000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -189,9 +179,7 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 3500,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -215,9 +203,7 @@
           "type": "fixed",
           "token": "BEETS",
           "amount": 25000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -241,9 +227,7 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 1000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     }

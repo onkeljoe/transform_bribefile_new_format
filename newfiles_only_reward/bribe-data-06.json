@@ -28,17 +28,13 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 20000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "RING",
           "amount": 25000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -54,9 +50,7 @@
           "type": "percent",
           "token": "DEUS",
           "amount": 7000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -72,9 +66,7 @@
           "type": "percent",
           "token": "LQDR",
           "amount": 6000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -90,9 +82,7 @@
           "type": "fixed",
           "token": "BEETS",
           "amount": 100000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -109,9 +99,7 @@
           "type": "percent",
           "token": "USDC",
           "amount": 5000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 40000
+          "isfixed": true
         }
       ]
     },
@@ -127,17 +115,13 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 1000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "BEETS",
           "amount": 4000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -154,17 +138,13 @@
           "type": "percent",
           "token": "CREDIT",
           "amount": 3000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 90000
+          "isfixed": true
         },
         {
           "type": "percent",
           "token": "USDC",
           "amount": 3000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 90000
+          "isfixed": true
         }
       ]
     },
@@ -180,9 +160,7 @@
           "type": "fixed",
           "token": "BOO",
           "amount": 30000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -198,9 +176,7 @@
           "type": "fixed",
           "token": "SOLID",
           "amount": 50000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -216,9 +192,7 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 20000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "version": "17.9.2",
+  "version": "17.9.3",
   "snapshot": "0xf161196029cb7848d69154c87884de87c5c7a6d41686c9e7346bdc39d3620325",
   "description": "Farming Incentive Gauge Vote (round 17)",
   "round": 17,
@@ -23,9 +23,7 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 11000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -41,9 +39,7 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 4500,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -60,17 +56,13 @@
           "type": "fixed",
           "token": "SD Token",
           "amount": 3000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "percent",
           "token": "SD Token",
           "amount": 450,
-          "isfixed": true,
-          "percentagethreshold": 6.6667,
-          "rewardcap": 8250
+          "isfixed": true
         }
       ]
     },
@@ -87,9 +79,7 @@
           "type": "percent",
           "token": "BEETS",
           "amount": "555",
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 3080
+          "isfixed": true
         }
       ]
     },
@@ -105,9 +95,7 @@
           "type": "fixed",
           "token": "BEETS",
           "amount": 60563.51,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -123,9 +111,7 @@
           "type": "fixed",
           "token": "BEETS",
           "amount": 60563.51,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -159,9 +145,7 @@
           "type": "percent",
           "token": "CRE8R",
           "amount": "332",
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -177,9 +161,7 @@
           "type": "fixed",
           "token": "Lonely Mountain LP",
           "amount": 2000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -195,9 +177,7 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 1000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     }

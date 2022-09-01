@@ -46,17 +46,13 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 8000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "RING",
           "amount": 32000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -80,9 +76,7 @@
           "type": "percent",
           "token": "USDC",
           "amount": 7000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 14000
+          "isfixed": true
         }
       ]
     },
@@ -106,9 +100,7 @@
           "type": "fixed",
           "token": "FTM",
           "amount": 5000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -132,9 +124,7 @@
           "type": "fixed",
           "token": "BEETS",
           "amount": 100000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -158,9 +148,7 @@
           "type": "fixed",
           "token": "PILLS",
           "amount": 24000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -184,9 +172,7 @@
           "type": "percent",
           "token": "GRO",
           "amount": 2400,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -210,9 +196,7 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 30000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -236,9 +220,7 @@
           "type": "fixed",
           "token": "BEETS",
           "amount": 10000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -262,9 +244,7 @@
           "type": "percent",
           "token": "CRE8R",
           "amount": "1153",
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     }

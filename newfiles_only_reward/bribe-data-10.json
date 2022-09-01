@@ -23,9 +23,7 @@
           "type": "fixed",
           "token": "Lonely Mountain LP",
           "amount": 15000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -41,9 +39,7 @@
           "type": "fixed",
           "token": "PANIC",
           "amount": 1000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -77,9 +73,7 @@
           "type": "percent",
           "token": "CRE8R",
           "amount": "725",
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -95,9 +89,7 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 14000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -113,9 +105,7 @@
           "type": "percent",
           "token": "GRO",
           "amount": 1000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     }

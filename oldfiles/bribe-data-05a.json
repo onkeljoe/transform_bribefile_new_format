@@ -22,7 +22,9 @@
     {
       "token": "FBEETS",
       "tokenaddress": "0xfcef8a994209d6916EB2C86cDD2AFD60Aa6F54b1",
-      "coingeckoid": ""
+      "coingeckoid": "",
+      "isbpt": true,
+      "lastprice": 0.73821
     }
   ],
   "bribedata": [

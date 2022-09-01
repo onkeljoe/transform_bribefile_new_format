@@ -22,7 +22,9 @@
     {
       "token": "FBEETS",
       "tokenaddress": "0xfcef8a994209d6916EB2C86cDD2AFD60Aa6F54b1",
-      "coingeckoid": ""
+      "coingeckoid": "",
+      "isbpt": true,
+      "lastprice": 0.73821
     }
   ],
   "bribedata": [
@@ -61,33 +63,25 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 40000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "BEETS",
           "amount": 15000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         },
         {
           "type": "fixed",
           "token": "RING",
           "amount": 20000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         },
         {
           "type": "fixed",
           "token": "SUPA",
           "amount": 165000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -115,17 +109,13 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 10000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "RING",
           "amount": 5000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -160,25 +150,19 @@
           "type": "fixed",
           "token": "DAI",
           "amount": 40000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "FBEETS",
           "amount": 25000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         },
         {
           "type": "percent",
           "token": "DAI",
           "amount": 2000,
-          "isfixed": true,
-          "percentagethreshold": 10,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -203,9 +187,7 @@
           "type": "percent",
           "token": "USDC",
           "amount": 6500,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 100000
+          "isfixed": true
         }
       ]
     },
@@ -234,17 +216,13 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 2000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "BEETS",
           "amount": 2000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -267,9 +245,7 @@
           "type": "fixed",
           "token": "DAI",
           "amount": 15000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -297,17 +273,13 @@
           "type": "percent",
           "token": "LQDR",
           "amount": 4000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "percent",
           "token": "FTM",
           "amount": 1000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -331,9 +303,7 @@
           "type": "fixed",
           "token": "FBEETS",
           "amount": 100000,
-          "isfixed": false,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": false
         }
       ]
     },
@@ -356,9 +326,7 @@
           "type": "fixed",
           "token": "FTM",
           "amount": 40000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -383,9 +351,7 @@
           "type": "percent",
           "token": "CREDIT",
           "amount": 3000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 30000
+          "isfixed": true
         }
       ]
     },
@@ -408,9 +374,7 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 5000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -439,17 +403,13 @@
           "type": "fixed",
           "token": "SOLID",
           "amount": 50000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "fixed",
           "token": "OATH",
           "amount": 25000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -479,17 +439,13 @@
           "type": "fixed",
           "token": "BOO",
           "amount": 50000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         },
         {
           "type": "percent",
           "token": "BOO",
           "amount": 1500,
-          "isfixed": true,
-          "percentagethreshold": 20,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     },
@@ -513,9 +469,7 @@
           "type": "fixed",
           "token": "USDC",
           "amount": 50000,
-          "isfixed": true,
-          "percentagethreshold": 0,
-          "rewardcap": 0
+          "isfixed": true
         }
       ]
     }
